@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de Cédula Dominicana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Validador de Cédula</h1>
+    <p>Utilizando el algoritmo del <strong>Módulo 10</strong></p>
+
+    <div class="card">
+      <input type="text" id="cedula" placeholder="Ingrese su cédula sin guiones" maxlength="11">
+      <button onclick="validarCedula()">Validar</button>
+      <p id="resultado"></p>
+    </div>
+
+    <footer>
+      <small>Desarrollado en JavaScript | Algoritmo Módulo 10</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
